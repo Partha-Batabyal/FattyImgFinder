@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const input = document.querySelector("input");
   const btn = document.querySelector(".icon");
   const hero = document.querySelector(".hero");
-  const key = "KZOIJz1bkmv0apaUh3j1Ti9dHtTmGRRkNNx4K_v-szU";
+  const key = "acYlKxI6WWpG3MTBUQY1oiQc87yEoC48WouYKLcSt4c";
   let pagesToFetch = 10;
 
   // Display the current number of pages to fetch
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   pagesDisplay.textContent = `Pages to Fetch: ${pagesToFetch}`;
   document.body.appendChild(pagesDisplay);
 
- 
+
 
   // Function to handle image click events
   function handleImageClick(img) {
